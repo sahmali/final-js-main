@@ -1,0 +1,127 @@
+html,body{
+	font-family: 'Alegreya Sans', sans-serif;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+  transition: all .5s ease;
+
+}
+body section{
+  position: relative;
+}
+.spacer-300{
+	height: 260px;
+}
+.spacer-50{
+	height: 50px;
+}
+.spacer-100{
+	height: 100px;
+}
+.clear{
+	clear: both;
+}
+.text-center{
+	text-align: center;
+}
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+.fullPage{
+	width: 100%;
+}
+.normalPage{
+	width: 1000px;
+	margin: 0 auto;
+}
+.section-padding{
+	padding: 80px 0 !important;;
+}
+/*grid sysytem*/
+.row{
+	width: 100%;
+}
+.col-1 {
+  width: 8.333%;
+}
+
+/** 2/12 **/
+
+.col-2 {
+  width: 16.666%;
+}
+
+/** 3/12 **/
+
+.col-3 {
+  width: 25%;
+}
+
+/** 4/12 **/
+
+.col-4 {
+  width: 33.333%;
+}
+
+/** 5/12 **/
+
+.col-5 {
+  width: 41.666%;
+}
+
+/** 6/12 **/
+
+.col-6 {
+  width: 50%;
+}
+
+/** 7/12 **/
+
+.col-7 {
+  width: 58.333%;
+}
+
+/** 8/12 **/
+
+.col-8 {
+  width: 66.666%;
+}
+
+/** 9/12 **/
+
+.col-9 {
+  width: 75%;
+}
+
+/** 10/12 **/
+
+.col-10 {
+  width: 83.333%;
+}
+
+/** 11/12 **/
+
+.col-11 {
+  width: 91.666%;
+}
+
+/** 12/12 **/
+
+.col-12 {
+  width: 100%;
+}
+
+/** Viewport <= 640px **/
+
+
+  div[class*="col-"] {
+   float: left;
+   box-sizing: border-box;
+  }
+}
+body section{
+  z-index: 100;
+}
