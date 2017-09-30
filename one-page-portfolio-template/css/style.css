@@ -15,23 +15,23 @@ body{
 	width: 100vw;
 	font-size: 15px;
 	transition: all 0.2s ease-in-out;
+	background-color: black;
+	overflow: hidden;
 }
 
 .main-page{
+	position: relative;
  width: 100%;
  height: 100%;
  color: white;
 }
 .main-page .col-6{
-	position: relative;
 	height: 50vh;
 }
 .main-page .item{
 	position: absolute;
-	top: 0;
-	left: 0;
 	height: 50vh;
-	width:100% ;
+	width: 50%;
 	box-sizing: border-box;
 	text-transform: uppercase;
 	text-align: center;
@@ -52,7 +52,64 @@ body{
 }
 .main-page .hidden-item{
 	position: absolute;
-	opacity: 0;
+	
 	transition: all 1s ease-in-out;
 	z-index: 10;
+	box-sizing:border-box;
+	padding: 100px 50px;
+	top: 0;
+	left: 0;
+}
+.main-page .hidden-item h1{
+	font-size: 3em;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+.main-page .hidden-item p{
+	margin-bottom: 25px;
+	font-size: 1.2em
+}
+.main-page .hidden-item ul{
+	width: 100%;
+}
+.main-page .hidden-item ul li{
+	width: 20%;
+	box-sizing:border-box;
+	float: left;
+	padding: 0 20px;
+}
+.main-page .hidden-item ul li img{
+	max-width: 100%;
+	border: 8px solid rgba(0,0,0,0.1);
+	cursor: pointer;
+}
+
+.fa-times-circle{
+	position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+  	font-size: 1.4em;
+  	display: none;
+  	z-index: 66;
+}
+.show-hidden{
+	height: 100vh;
+	width: 100vw;
+	opacity: 1;
+}
+.hide-hidden{
+	height: 0;
+	width: 0;
+	opacity: 0;
+}
+.slider .slider-item{
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	background-color: #3ba5db;
+	z-index: 67;
 }
